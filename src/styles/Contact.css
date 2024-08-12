@@ -1,0 +1,38 @@
+/* src/styles/Contact.css */
+.contact {
+  padding: 50px;
+  background-color:white;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contact-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #00796b;
+  font-size: 24px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.contact-link:hover {
+  transform: scale(1.1);
+  color: #004d40;
+}
+
+.contact-icon {
+  margin-right: 10px;
+  font-size: 30px;
+}
